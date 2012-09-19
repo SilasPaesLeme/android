@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar" />
+
+    <TextView
+        android:id="@+id/textReturn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.19"
+        android:text=""
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/tela_cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Novo Produto" />
+
+    <Button
+        android:id="@+id/listar_nao_sinc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Não Sinc" />
+
+    <Button
+        android:id="@+id/sinc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sincronizar" />
+
+</LinearLayout>
